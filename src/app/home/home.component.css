@@ -11,7 +11,7 @@ ul li a{
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    height: 20rem;
+    height: 25rem;
     width: 20rem;
     border: 1px solid whitesmoke;
     border-radius: 1rem;
