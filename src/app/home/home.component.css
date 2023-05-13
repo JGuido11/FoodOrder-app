@@ -23,3 +23,19 @@ li a:hover{
     opacity: 0.9;
     cursor: pointer;
 }
+
+.content{
+    padding: .5rem 1rem;
+    position: relative;
+}
+
+.favorite{
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
+    font-size: 2rem;
+}
+
+.favorite.not{
+    color: red;
+}

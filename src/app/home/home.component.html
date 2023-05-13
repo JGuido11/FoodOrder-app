@@ -6,11 +6,9 @@
         <div class="name">
           {{ food.name }}
         </div>
-        <span
-          class="material-symbols-outlined {{ food.favorite ? '' : 'not' }}"
-        >
-          favorite
-        </span>
+        <div class="favorite">
+          <span class="{{ food.favorite ? '' : 'not' }}"> ♡ </span>
+        </div>
         <star-rating
           [value]="food.stars"
           [totalstars]="5"
@@ -26,11 +24,9 @@
               {{ origin }}
             </span>
           </div>
---> 
+-->
           <div class="cook-time">
-            <span class="material-symbols-outlined"> 
-                timer 
-            </span>
+            <span class="material-symbols-outlined"> timer </span>
             {{ food.cookTime }}
           </div>
           <div class="price">
